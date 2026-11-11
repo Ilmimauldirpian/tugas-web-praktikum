@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="shop-container">
+        <header class="shop-header">
+            <h1 class="shop-title">Toko Sederhana</h1>
+        </header>
+
+        <!-- Bagian Daftar Produk -->
+        <section class="product-section">
+            <h2 class="section-title">Daftar Produk</h2>
+            <div id="product-list" class="product-grid">
+                <!-- Produk akan dimuat secara dinamis oleh JavaScript -->
+            </div>
+        </section>
+
+        <!-- Bagian Keranjang Belanja -->
+        <section class="cart-section">
+            <h2 class="section-title">Keranjang Belanja</h2>
+            <ul id="cart-list" class="cart-list">
+                <!-- Item keranjang akan dimuat di sini -->
+            </ul>
+            <div class="cart-summary" id="cart-summary">
+                Jumlah Item: 0 | Total Harga: Rp 0
+            </div>
+            <div class="cart-actions">
+                <button id="btn-undo" class="btn btn-undo">Batalkan Item Terakhir (pop)</button>
+                <button id="btn-checkout" class="btn btn-checkout">Checkout</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Hubungkan ke file script.js yang terpisah -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+git init
+git add .
+git commit -m "tugas 2 minggi"
+git branch -M main
+git remote add origin https://github.com/Ilmimauldirpian/tugas-web-praktikum.git
+git push -u origin main
